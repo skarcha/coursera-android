@@ -31,3 +31,6 @@ proguard/
 # Compressed files
 *.zip
 
+# Setttings
+.settings/
+
