@@ -29,7 +29,6 @@ public class MainActivity extends Activity implements
 					.beginTransaction();
 			fragmentTransaction.add(R.id.fragment_container,
 					mFriendsFragment);
-			fragmentTransaction.addToBackStack(null);
 			fragmentTransaction.commit();
 			
 			
